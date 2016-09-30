@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="11201"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner"/>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="c22-O7-iKe" userLabel="Chapter Page Item View">
+            <rect key="frame" x="0.0" y="0.0" width="365" height="520"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="S2L-Pz-apb">
+                    <rect key="frame" x="0.0" y="0.0" width="365" height="520"/>
+                    <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyUpOrDown" id="FLa-hx-muq"/>
+                </imageView>
+            </subviews>
+            <constraints>
+                <constraint firstItem="S2L-Pz-apb" firstAttribute="trailing" secondItem="c22-O7-iKe" secondAttribute="trailing" id="L6r-Gj-QxT"/>
+                <constraint firstItem="S2L-Pz-apb" firstAttribute="leading" secondItem="c22-O7-iKe" secondAttribute="leading" id="M5U-4c-YvS"/>
+                <constraint firstItem="S2L-Pz-apb" firstAttribute="top" secondItem="c22-O7-iKe" secondAttribute="top" id="iCU-NJ-jPr"/>
+                <constraint firstItem="S2L-Pz-apb" firstAttribute="bottom" secondItem="c22-O7-iKe" secondAttribute="bottom" id="m92-Sb-aIJ"/>
+            </constraints>
+        </customView>
+        <customObject id="6i0-jh-KRc" customClass="ChapterPageItem" customModule="Yomu" customModuleProvider="target">
+            <connections>
+                <outlet property="pageImageView" destination="S2L-Pz-apb" id="jUf-KR-SWa"/>
+                <outlet property="view" destination="c22-O7-iKe" id="qhq-zh-kqc"/>
+            </connections>
+        </customObject>
+    </objects>
+</document>

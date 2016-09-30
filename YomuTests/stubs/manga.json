@@ -1,0 +1,61 @@
+{
+  "aka": [
+    "&#28779;&#24433;&#24525;&#32773;",
+    "NARUTO&#8213;&#12490;&#12523;&#12488;&#8213;",
+    "&#1053;&#1072;&#1088;&#1091;&#1090;&#1086;"
+  ],
+  "aka-alias": [
+    "28779244332452532773",
+    "naruto82131249012523124888213",
+    "105310721088109110901086"
+  ],
+  "alias": "naruto",
+  "artist": "KISHIMOTO Masashi",
+  "artist_kw": [
+    "kishimoto",
+    "masashi"
+  ],
+  "author": "KISHIMOTO Masashi",
+  "author_kw": [
+    "kishimoto",
+    "masashi"
+  ],
+  "baka": true,
+  "categories": [
+    "Shounen",
+    "Comedy",
+    "Fantasy",
+    "Adventure",
+    "Drama",
+    "Action"
+  ],
+  "chapters": [
+    [
+      700,
+      1415282983.0,
+      "Uzumaki Naruto!!",
+      "545b812745b9efab4343f776"
+    ]
+  ],
+  "chapters_len": 818,
+  "created": 1316022787.0,
+  "description": "Test description",
+  "hits": 248227265,
+  "image": "d1/d1cd664cefc4d19ec99603983d4e0b934e8bce91c3fccda3914ac029.png",
+  "imageURL": "http://www.mangaupdates.com/image/i140134.png",
+  "language": 0,
+  "last_chapter_date": 1464467825.0,
+  "random": [
+    0.39314473752533496,
+    0
+  ],
+  "released": 1999,
+  "startsWith": "n",
+  "status": 2,
+  "title": "Naruto",
+  "title_kw": [
+    "naruto"
+  ],
+  "type": 0,
+  "updatedKeywords": true
+}
